@@ -40,9 +40,9 @@ class App extends React.Component {
 
     const tree = this.state.tree;
     return (
-      <div>
+      <div style={{ marginLeft: 10}}>
         <Row type="flex" style={{width: '2596px', height: '1024px'}}>
-          <Col span={2}>
+          <Col span={4}>
             请输入数组:
             <Input defaultValue={this.state.inputVal}
                    onChange={(e) => {
@@ -55,8 +55,23 @@ class App extends React.Component {
             <Button type="primary" onClick={this.onChange}>归并排序</Button>
             <br/><br/>
             结果:{this.state.afterSortArray.reduce((v, r) => (v + ', ' + r))}
+            <br/>
+            void sort(int a[], int first, int last, int b[])
+            <br/>
+            {'{'}
+              <br/>
+            &nbsp;&nbsp;{'if (first >= last) return; //step1'}
+              <br/>
+              &nbsp;&nbsp;{'{'}
+              <br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;{'int mid = (first + last) / 2;//step2'} <br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;{' mergesort(a, first, mid, b);    //step3'} <br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;{'mergesort(a, mid + 1, last, b); //step4'}  <br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;{'mergearray(a, first, mid, last, b); //step5'}  <br/>
+              &nbsp;&nbsp;{'}'} <br/>
+            {'}'}
           </Col>
-          <Col span={22}>
+          <Col span={20}>
             <div style={{width: '100%', height: '1024pt', border: 'solid 1px black', fontSize: '24pt'}}>
               <Tree data={[tree]}
                     nodeSize={ {x: 400, y: 200}}
