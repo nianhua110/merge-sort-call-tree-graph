@@ -39,8 +39,8 @@ export default function generateTree(a) {
     count = count + 1;
 
     /*判断该节点是父节点的左节点还是右节点*/
-    if (currentNdoe && currentNdoe.parent && currentNdoe.parent.whichSideWhenChildNode) {
-      if (currentNdoe.parent.whichSideWhenChildNode === 'left') {
+    if (currentNdoe && currentNdoe.parent && currentNdoe.whichSideWhenChildNode) {
+      if (currentNdoe.whichSideWhenChildNode === 'left') {
         currentNdoe.parent.attributes.step3 = '执行sort' + count
       } else {
         currentNdoe.parent.attributes.step4 = '执行sort' + count;
