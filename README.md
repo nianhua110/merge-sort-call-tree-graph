@@ -16,3 +16,5 @@ merge
 ##截图
 
 ![demo](demo.png)
+# 注
+本程序基于React框架编写

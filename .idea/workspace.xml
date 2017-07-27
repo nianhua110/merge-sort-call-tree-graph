@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bfda94e-2244-456f-9e6c-77370666aa4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -51,8 +50,8 @@
           </provider>
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="255">
-                <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <first_editor relative-caret-position="285">
+                <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -302,7 +301,7 @@
       <workItem from="1501146026806" duration="92000" />
       <workItem from="1501146157736" duration="604000" />
       <workItem from="1501148972984" duration="2185000" />
-      <workItem from="1501155201498" duration="276000" />
+      <workItem from="1501155201498" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="添加Readme">
       <created>1501141291242</created>
@@ -360,11 +359,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501154613122</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加截图">
+      <created>1501155486956</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1501155486956</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20024000" />
+    <option name="totallyTimeSpent" value="20089000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,7 +446,8 @@
     <MESSAGE value="排版优化" />
     <MESSAGE value="添加源代码" />
     <MESSAGE value="缺失n" />
-    <option name="LAST_COMMIT_MESSAGE" value="缺失n" />
+    <MESSAGE value="添加截图" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加截图" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -734,8 +741,8 @@
       </provider>
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <first_editor relative-caret-position="285">
+            <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor />
