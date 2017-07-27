@@ -65,9 +65,9 @@ class App extends React.Component {
               &nbsp;&nbsp;{'{'}
               <br/>
               &nbsp;&nbsp;&nbsp;&nbsp;{'int mid = (first + last) / 2;//step2'} <br/>
-              &nbsp;&nbsp;&nbsp;&nbsp;{' mergesort(a, first, mid, b);    //step3'} <br/>
-              &nbsp;&nbsp;&nbsp;&nbsp;{'mergesort(a, mid + 1, last, b); //step4'}  <br/>
-              &nbsp;&nbsp;&nbsp;&nbsp;{'mergearray(a, first, mid, last, b); //step5'}  <br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;{' sort(a, first, mid, b);    //step3'} <br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;{'sort(a, mid + 1, last, b); //step4'}  <br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;{'merge(a, first, mid, last, b); //step5'}  <br/>
               &nbsp;&nbsp;{'}'} <br/>
             {'}'}
           </Col>
