@@ -6,7 +6,40 @@
 虽然这个程序是js写成的，但是由于教学对象是学C的，所以贴的代码仍然是C的.
 我们把归并排序的过程分为５步，在下面的注释中可以看到．
 ```c
-merge
+ 
+void merge(int a[], int first, int mid, int last, int temp[])  
+{  
+    int i = first, j = mid + 1;  
+    int m = mid,   n = last;  
+    int k = 0;  
+      
+    while (i <= m && j <= n)  
+    {  
+        if (a[i] <= a[j])  
+            temp[k++] = a[i++];  
+        else  
+            temp[k++] = a[j++];  
+    }  
+      
+    while (i <= m)  
+        temp[k++] = a[i++];  
+      
+    while (j <= n)  
+        temp[k++] = a[j++];  
+      
+    for (i = 0; i < k; i++)  
+        a[first + i] = temp[i];  
+}  
+void sort(int a[], int first, int last, int temp[])  
+{  
+    if (first < last)  return; //step1
+     
+        int mid = (first + last) / 2 //step2;  
+        mergesort(a, first, mid, temp);    //step3  
+        mergesort(a, mid + 1, last, temp); //step4 
+        mergearray(a, first, mid, last, temp); //step5  
+      
+}
 ```
 
 ## 示列
