@@ -76,7 +76,7 @@ export default function generateTree(a) {
     currentNdoe.attributes.step5 = '执行merge(a, ' + ', ' + start + ', '
       + ', ' + mid + ', ' + end + ')'
     merge(a, start,mid, end);
-    currentNdoe.attributes.end1='当前a=['+a.reduce((r,v)=>(v+', '+r))+']';
+    currentNdoe.attributes.end1='当前a=['+a.reduce((r,v)=>(r+', '+v))+']';
     if(currentNdoe.parent){
       currentNdoe.attributes.end2='返回 sort'+currentNdoe.parent.count+',step ' +
         (currentNdoe.whichSideWhenChildNode === 'left'?'3':'4');
