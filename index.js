@@ -57,8 +57,8 @@ class App extends React.Component {
             结果:{this.state.afterSortArray.reduce((v, r) => (v + ', ' + r))}
           </Col>
           <Col>
-            <div style={{width: '2096pt', height: '1024pt', border: 'solid 1px black', fontSize: '20pt'}}>
-              <Tree data={[tree]} nodeSize={ {x: 300, y: 200}} translate={ {x: 50, y: 500}}></Tree>
+            <div style={{width: '1372pt', height: '1024pt', border: 'solid 1px black', fontSize: '24pt'}}>
+              <Tree data={[tree]} nodeSize={ {x: 400, y: 200}} translate={ {x: 50, y: 500}}></Tree>
             </div>
           </Col>
         </Row>
