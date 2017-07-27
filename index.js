@@ -56,7 +56,7 @@ class App extends React.Component {
             <br/><br/>
             结果:{this.state.afterSortArray.reduce((v, r) => (v + ', ' + r))}
             <br/>
-            void sort(int a[], int first, int last, int b[])
+            void sort(int a[], int n, int first, int last, int b[])
             <br/>
             {'{'}
               <br/>
@@ -65,9 +65,9 @@ class App extends React.Component {
               &nbsp;&nbsp;{'{'}
               <br/>
               &nbsp;&nbsp;&nbsp;&nbsp;{'int mid = (first + last) / 2;//step2'} <br/>
-              &nbsp;&nbsp;&nbsp;&nbsp;{' sort(a, first, mid, b);    //step3'} <br/>
-              &nbsp;&nbsp;&nbsp;&nbsp;{'sort(a, mid + 1, last, b); //step4'}  <br/>
-              &nbsp;&nbsp;&nbsp;&nbsp;{'merge(a, first, mid, last, b); //step5'}  <br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;{' sort(a, n, first, mid, b);    //step3'} <br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;{'sort(a, n, mid + 1, last, b); //step4'}  <br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;{'merge(a, n, first, mid, last, b); //step5'}  <br/>
               &nbsp;&nbsp;{'}'} <br/>
             {'}'}
           </Col>
