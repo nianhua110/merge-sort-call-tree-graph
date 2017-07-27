@@ -293,7 +293,7 @@
       <workItem from="1501119245762" duration="16867000" />
       <workItem from="1501146026806" duration="92000" />
       <workItem from="1501146157736" duration="604000" />
-      <workItem from="1501148972984" duration="1851000" />
+      <workItem from="1501148972984" duration="1858000" />
     </task>
     <task id="LOCAL-00001" summary="添加Readme">
       <created>1501141291242</created>
@@ -330,11 +330,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501154520986</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="添加源代码">
+      <created>1501154549106</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1501154549106</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19414000" />
+    <option name="totallyTimeSpent" value="19421000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
